@@ -84,7 +84,6 @@ async function getURLMetadata(url) {
 }
 
 async function checkServers() {
-    console.log(servers)
     for (const server of servers) {
         try {
             const metadata = await getURLMetadata(server.url);

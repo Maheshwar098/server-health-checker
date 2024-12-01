@@ -1,0 +1,6 @@
+{
+    "servers":[
+        { "url": "http://localhost:3000", "name": "test-server", "command":"pm2 restart"}
+    ]
+
+}
